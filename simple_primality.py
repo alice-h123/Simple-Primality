@@ -1,12 +1,23 @@
 """
 Filename: simple_primality.py
-Author: <NAME>
-Created: <DATE>
+Author: Alice Hertz
+Created: 2/27/2026
 Instructor: Holtslander
 """
 
 def prime():
-    # Write your code here
+    num=int(input("pick a non-negative whole number\n"))
+    
+    for i in range (num-1,1,-1):
+        if num%i == 0:
+            print("this isnt a prime number")
+            break
+    else:
+        print("this is a prime number")
+
+
+
+    
 
 
 # You should not need to change any code below this point

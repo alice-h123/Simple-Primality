@@ -6,7 +6,7 @@ Instructor: Holtslander
 """
 
 def factorial():
-    fact= int(input("pick a non-negative whole number"\n))
+    fact= int(input("pick a non-negative whole number\n"))
     num=fact
     count=0
     for i in range(fact,1,-1):
